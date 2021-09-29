@@ -27,7 +27,7 @@
 			<legend>NAME</legend>
 			<table>
 				<tr>
-					<td>USERNAME</td>
+					<td>NAME</td>
 					<td>
 						<input type="text" name="myname" value="">
 					</td>

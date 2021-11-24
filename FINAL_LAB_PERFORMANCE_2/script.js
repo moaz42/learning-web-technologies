@@ -40,7 +40,7 @@ function btn(key) {
             key
           );
           break;
-        case "/":
+        case "÷":
           getResult(
             Number(resultPrevElement.innerHTML),
             Number(resultElement.innerHTML),

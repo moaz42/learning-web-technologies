@@ -15,7 +15,7 @@ switch ($operator) {
 		echo (float)$num1 * (float)$num2;
 		break;
 	case 'div':
-		echo (float)$num1 ÷ (float)$num2;
+		echo (float)$num1 / (float)$num2;
 		break;
 	default:
 		echo 'Invalid Operator';

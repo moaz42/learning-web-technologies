@@ -14,7 +14,7 @@ function btn(key) {
       //Check if dot exists on second num
     }
   } else {
-    if (key == "+" || key == "-" || key == "*" || key == "÷" || key == "=") {
+    if (key == "+" || key == "-" || key == "*" || key == "/" || key == "=") {
       switch (operatorElement.innerHTML) {
         case "+":
           getResult(
@@ -40,7 +40,7 @@ function btn(key) {
             key
           );
           break;
-        case "÷":
+        case "/":
           getResult(
             Number(resultPrevElement.innerHTML),
             Number(resultElement.innerHTML),
@@ -54,7 +54,6 @@ function btn(key) {
           resultElement.innerHTML = 0;
           break;
         case "=":
-          //resultElement.innerHTML = resultPrevElement.innerHTML;
           resultPrevElement.innerHTML = resultElement.innerHTML;
           operatorElement.innerHTML = key;
           resultElement.innerHTML = "0";

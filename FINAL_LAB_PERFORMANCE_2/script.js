@@ -14,7 +14,7 @@ function btn(key) {
       //Check if dot exists on second num
     }
   } else {
-    if (key == "+" || key == "-" || key == "*" || key == "/" || key == "=") {
+    if (key == "+" || key == "-" || key == "*" || key == "÷" || key == "=") {
       switch (operatorElement.innerHTML) {
         case "+":
           getResult(
